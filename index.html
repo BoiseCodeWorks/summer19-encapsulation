@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>name: <span id="name"></span></h1>
+        <h2>balance: <span id="balance"></span></h2>
+    </header>
+    <main>
+        <button onclick="app.controllers.accountController.deposit()" class="deposit">Deposit</button>
+        <button onclick="app.controllers.accountController.withdraw()" class="withdraw">Withdraw</button>
+    </main>
+
+
+
+    <script src="app/main.js" type="module"></script>
+</body>
+</html>
